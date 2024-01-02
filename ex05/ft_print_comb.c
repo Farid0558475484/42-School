@@ -1,12 +1,24 @@
 #include <stdio.h>
 
 void ft_print_comb() {
-    for (int i = 0; i <= 7; ++i) {
-        for (int j = i+1; j <= 8; ++j) {
-            for (int k = j+1; k <= 9; ++k) {
+
+    int i = 0;
+
+    while (i <= 7) {
+        int j = i+1;
+        while (j <= 8) {
+            int k = j+1;
+            while (k <= 9) {
+
                 printf("%d%d%d, ", i, j, k);
+
+                if(i == 7 && j == 8 && k == 9)
+                    printf("%d%d%d.", i, j, k);
+                k++;
             }
+            j++;
         }
+        i++;
     }
     printf("\n");
 }
