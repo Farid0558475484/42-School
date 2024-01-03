@@ -6,8 +6,8 @@
       "type": "lldb",
       "request": "launch",
       "args": [],
-      "cwd": "/Users/xamyak/Desktop/42/ex08",
-      "program": "/Users/xamyak/Desktop/42/ex08/build/Debug/outDebug"
+      "cwd": "/Users/xamyak/Desktop/42/c00/ex08",
+      "program": "/Users/xamyak/Desktop/42/c00/ex08/build/Debug/outDebug"
     }
   ]
 }
